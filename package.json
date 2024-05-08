@@ -1,17 +1,19 @@
 {
   "name": "ecoflow-database",
   "version": "0.0.1",
-  "description": "",
   "main": "./dist/index.js",
   "scripts": {
     "build": "tsc --build",
     "watch": "tsc --watch"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "EcoFlow",
     "EcoFlowModule"
   ],
-  "author": "",
+  "author": "EcoFlowJS",
   "license": "ISC",
   "ecoModule": {
     "findController": "./dist/controllers/findController.js",
@@ -28,5 +30,15 @@
   "dependencies": {
     "@ecoflow/types": "^0.0.20",
     "typescript": "^5.4.5"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EcoFlowJS/ecoflow-database.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EcoFlowJS/ecoflow-database/issues"
+  },
+  "homepage": "https://github.com/EcoFlowJS/ecoflow-database#readme",
+  "description": ""
 }
