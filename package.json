@@ -1,0 +1,32 @@
+{
+  "name": "ecoflow-database",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "EcoFlow",
+    "EcoFlowModule"
+  ],
+  "author": "",
+  "license": "ISC",
+  "ecoModule": {
+    "findController": "./dist/controllers/findController.js",
+    "insertController": "./dist/controllers/insertController.js",
+    "updateController": "./dist/controllers/updateController.js",
+    "deleteController": "./dist/controllers/deleteController.js",
+    "sortController": "./dist/controllers/sortController.js",
+    "limitController": "./dist/controllers/limitController.js",
+    "rangeController": "./dist/controllers/rangeController.js",
+    "findReturnSelectedController": "./dist/controllers/findReturnSelectedController.js",
+    "findAndSort": "./dist/controllers/findAndSort.js",
+    "findAndLimit": "./dist/controllers/findAndLimit.js"
+  },
+  "dependencies": {
+    "@ecoflow/types": "^0.0.20",
+    "typescript": "^5.4.5"
+  }
+}
